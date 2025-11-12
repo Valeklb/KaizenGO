@@ -167,6 +167,27 @@ const rotas = [
     googleLink:
       "https://www.google.com/maps/d/embed?mid=1D6E_wKKPmtHQ2u75LU0f_iH9Ao3CQXg&ehbc=2E312F",
   },
+  {
+    id: "03",
+    nome: "Rota 03 - R. Dom João - Parque 10",
+    caminho: "R. Dom João - Parque 10, Manaus - AM",
+    googleLink:
+      "https://www.google.com/maps/d/embed?mid=1Ljgv0JKc77Hn4rTmW0kz-ktfnmVDs9I&ehbc=2E312F",
+  },
+  {
+    id: "04",
+    nome: "Rota 04 - Lírio do Vale",
+    caminho: "Rua Jequié, Manaus - AM",
+    googleLink:
+      "https://www.google.com/maps/d/embed?mid=1isZ0Dv3C61z5nI8NrUDyyuRm_lQjxqM&ehbc=2E312F",
+  },
+  {
+    id: "05",
+    nome: "Rota 05 - Viver Melhor",
+    caminho: "Av. Comendador José Cruz - AM",
+    googleLink:
+      "https://www.google.com/maps/d/embed?mid=1MZ0IUlukpe4G5JISXl8vI9q8a_bkkLM&ehbc=2E312F",
+  },
 ];
 function renderRotas(filtro = "") {
   const container = document.getElementById("rotas-container");
@@ -347,3 +368,4 @@ function recusarSolicitacao(i) {
   renderPainelGestor("Em análise");
   renderSolicitacoes("Recusado ❌");
 }
+
